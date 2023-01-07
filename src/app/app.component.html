@@ -20,9 +20,12 @@
 <p>  Fecha:  <input type="datetime-local" class="form-control-sm border-primary" [(ngModel)] = "fecha"></p>
 
 
-<p> Resultado = {{hoy|date:'short'}}</p> 
-<p>{{diferencia}}</p> 
-
+<div>
+  <p>FECHA: 06/01/2023 17:24:09 =>  {{ '01/06/2023 19:35:00' |date}}</p>
+  <p>FECHA: 06/01/2023 13:00 =>  {{ '01/06/2023 11:00' | date }}</p>
+  <p>FECHA: 01/01/2023 12:00 =>  {{ '01/01/2023 02:00' | date}}</p>
+  <p>FECHA: 01/02/2022 12:00 =>  {{ '01/01/2022 14:00' | date}}</p>
+</div>
 
 </div>
 

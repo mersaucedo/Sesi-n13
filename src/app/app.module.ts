@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DatePipe } from './date.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatePipe
   ],
   imports: [
     BrowserModule,
